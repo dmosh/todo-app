@@ -13,6 +13,7 @@ const port = 3000;
 
 // Connect to MongoDB
 mongoose.connect('mongodb://localhost:27017/todo-app');
+//mongoose.connect('mongodb+srv://moshmoses3:hOkOPwqUgylWgj23@cluster0.vheaf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 
 // Define a Mongoose schema for tasks with user association
 const taskSchema = new mongoose.Schema({
